@@ -13,6 +13,7 @@ body {
   background-color: #f6f7fb;
   font-family: 'Muli', sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -22,6 +23,13 @@ body {
 
 .container {
   text-align: center;
+}
+
+.container-bar {
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
 }
 
 .progress-container {
@@ -45,6 +53,25 @@ body {
   z-index: -1;
 }
 
+.progress-container-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.progress-container-bar::before {
+  content: '';
+  background-color: var(--line-border-empty);
+  position: relative;
+  height: 10px;
+  width: 100%;
+  z-index: -1;
+}
+
 .progress {
   background-color: var(--line-border-fill);
   position: absolute;
@@ -55,6 +82,15 @@ body {
   width: 0%;
   z-index: -1;
   transition: 0.4s ease;
+}
+
+.progress-bar {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  height: 10px;
+  width: 0%;
+  z-index: -1;
+  transition: 4s;
 }
 
 .circle {
@@ -97,4 +133,8 @@ body {
 .btn:disabled {
   background-color: var(--line-border-empty);
   cursor: not-allowed;
+}
+
+.progress-statement {
+	text-align: center;
 }
