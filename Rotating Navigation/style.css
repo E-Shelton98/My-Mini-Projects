@@ -142,7 +142,7 @@ nav ul li i {
   }
 }
 
-@media only Screen and (max-width: 300px) {
+@media only Screen and (max-width: 350px) {
   .circle-container {
     top: -50px;
     left: -50px;

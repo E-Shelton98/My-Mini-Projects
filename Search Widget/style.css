@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100vw;
+  margin: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+header a.brand-name {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 25px;
+}
+
+header a.nav-link {
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+}
+
+header a.nav-link:hover {
+	text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding-right: 60px;
+}
+
+article {
+  margin: 80px 10px 0px;
+  padding: 10px;
+  height: auto;
+}
+
+.search {
+  position: relative;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.search .input {
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  height: 25px;
+  width: 50px;
+  transition: width 0.5s ease;
+}
+
+.btn {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 50px;
+  transition: transform 0.5s ease;
+  margin-right: 10px;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
+
+.btn:hover {
+	background-color: lightblue;
+}
+
+#options {
+  visibility: hidden;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s linear;
+}
+
+.search.active #options {
+  visibility: visible;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+figure {
+  margin: 20px 10px 10px;
+  padding: 5px;
+  float: left;
+  width: 20%;
+  border: 2px solid black;
+  background-color: #ccc;
+  object-fit: contain;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  background-image: contain;
+}
+
+figure figcaption {
+  font-size: 12px;
+}
