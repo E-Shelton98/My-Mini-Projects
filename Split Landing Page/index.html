@@ -1,24 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Split Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="split left">
-            <h1>Space</h1>
-            <a href="#" class="btn">View More</a>
+      <div class="split left">
+        <h1>Space</h1>
+        <a href="#" class="btn" id="left-btn">View More</a>
+        <div class="holder flipV" id="left-holder">
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1497294815431-9365093b7331?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+              "
+            >
+              <h2>One night at Joshua Tree</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80');
+              "
+            >
+              <h2>Milky Way in Portugal</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1511798616182-aab3698ac53e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1483&q=80');
+              "
+            >
+              <h2>Stars in Cathedral Valley State Park</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1523333830682-5792a0db529f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1649&q=80');
+              "
+            >
+              <h2>Trifid and Lagoon Nebulas</h2>
+            </div>
+          </div>
         </div>
-        <div class="split right">
-            <h1>Earth</h1>
-            <a href="#" class="btn">View More</a>
+      </div>
+      <div class="split right">
+        <h1>Earth</h1>
+        <a href="#" class="btn" id="right-btn">View More</a>
+        <div class="holder flipV" id="right-holder">
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1516302350523-4c29d47b89e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+              "
+            >
+              <h2>The Grand Canyon</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1609981862814-0be1de5f1222?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2829&q=80');
+              "
+            >
+              <h2>El Matador Beach</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80');
+              "
+            >
+              <h2>Quiraing, Portree, United Kingdom</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front"></div>
+            <div
+              class="back"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1484318571209-661cf29a69c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+              "
+            >
+              <h2>South Africa - Worlds End</h2>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
