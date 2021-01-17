@@ -1,8 +1,16 @@
 const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
+const favBtn = document.getElementById('favBtn')
+const viewFavBtn = document.getElementById('viewFavBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
+favBtn.addEventListener('click', favoriteJoke)
+viewFavBtn.addEventListener('click', viewFavoriteJokes)
+
+
+let favoriteJokes = []
 generateJoke()
+
 
 //USING Async/Await
 async function generateJoke() {
@@ -33,3 +41,13 @@ async function generateJoke() {
       jokeEl.innerHTML = data.joke
     })
 } */
+
+function favoriteJoke() {
+    if (!favoriteJokes.includes(jokeEl.innerHTML)) {
+        favoriteJokes.push(jokeEl.innerHTML)
+    }
+}
+
+function viewFavoriteJokes() {
+    jokeEl.innerHTML = favoriteJokes[Math.floor(Math.random() * Math.floor(favoriteJokes.length))]
+}
