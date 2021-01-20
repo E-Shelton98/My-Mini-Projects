@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rolling Die</title>
+  </head>
+  <body>
+    <div class="dice-container">
+      <div class="scene" id="scene-one">
+        <div class="die" id="die-one">
+          <div class="die-face die-face-one">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-six"><div class="marker-holder">
+              <div class="die-marker" id="six-one"></div>
+              <div class="die-marker" id="six-two"></div>
+              <div class="die-marker" id="six-three"></div>
+              <div class="die-marker" id="six-four"></div>
+              <div class="die-marker" id="six-five"></div>
+              <div class="die-marker" id="six-six"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-four">four</div>
+          <div class="die-face die-face-three">three</div>
+          <div class="die-face die-face-two">two</div>
+          <div class="die-face die-face-five">five</div>
+        </div>
+      </div>
+      <div class="scene" id="scene-two">
+        <div class="die" id="die-two">
+          <div class="die-face die-face-one">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-six">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-four">four</div>
+          <div class="die-face die-face-three">three</div>
+          <div class="die-face die-face-two">two</div>
+          <div class="die-face die-face-five">five</div>
+        </div>
+      </div>
+      <div class="scene" id="scene-three">
+        <div class="die" id="die-three">
+          <div class="die-face die-face-one">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-six"><div class="marker-holder">
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-four">four</div>
+          <div class="die-face die-face-three">three</div>
+          <div class="die-face die-face-two">two</div>
+          <div class="die-face die-face-five">five</div>
+        </div>
+      </div>
+      <div class="scene" id="scene-four">
+        <div class="die" id="die-four">
+          <div class="die-face die-face-one">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-six"><div class="marker-holder">
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-four">four</div>
+          <div class="die-face die-face-three">three</div>
+          <div class="die-face die-face-two">two</div>
+          <div class="die-face die-face-five">five</div>
+        </div>
+      </div>
+      <div class="scene" id="scene-five">
+        <div class="die" id="die-five">
+          <div class="die-face die-face-one">
+            <div class="marker-holder">
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-six"><div class="marker-holder">
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+              <div class="die-marker"></div>
+            </div>
+          </div>
+          <div class="die-face die-face-four">four</div>
+          <div class="die-face die-face-three">three</div>
+          <div class="die-face die-face-two">two</div>
+          <div class="die-face die-face-five">five</div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-and-counter">
+      <button id="roll-btn">Roll Unlocked Die</button>
+      <p>This is currently roll <span id="counter"></span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
