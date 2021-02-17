@@ -24,7 +24,7 @@ body {
 
 nav {
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   width: 80px;
   height: 50px;
   display: flex;
@@ -39,33 +39,77 @@ nav.active {
   width: 350px;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-around;
+/* nav.active ul {
+  display: grid;
+  grid-template: 1fr / 1fr;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  height: 100%;
   width: 0;
   transition: width 0.4s linear;
   position: relative;
+  overflow: hidden;
 }
 
-nav.active ul {
+nav.active ul.active {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav ul li {
   opacity: 0;
-  transition: opacity 0.6s linear;
-  position: relative;
+  transition: opacity 0.05s linear;
+}
+
+nav ul.active li {
+  opacity: 1;
+} */
+
+nav ul {
+	display: grid;
+	grid-template: 1fr / 1fr;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 0;
+	transition: width 0.5s linear;
+}
+
+nav.active ul {
+	display: grid;
+	grid-template: 1fr / 1fr;
+	justify-items: center;
+	align-items: center;
+	width: 90%;
+}
+
+nav ul.active {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	opacity: 1;
+}
+
+nav ul li {
+	grid-area: 1 / 1 / 2 / 2;
+	opacity: 0;
+	transition: opacity 0.45s ease-out;
+}
+
+nav.active ul li {
+	opacity: .0;
 }
 
 nav.active ul.active li {
-  opacity: 1;
+	opacity: 1;
 }
 
 nav ul li a {
-  position: relative;
   color: #000;
   text-decoration: none;
 }
