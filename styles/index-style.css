@@ -104,6 +104,9 @@ nav .nav-list .nav-item a:hover {
   height: 200px;
   border: 2px solid var(--manilla);
   border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .top-project-card a {
