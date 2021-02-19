@@ -141,6 +141,7 @@ a.home-link {
   left: 160px;
   height: 30px;
   width: 30px;
+  z-index: 2;
 }
 
 .fa-arrow-alt-circle-left {
@@ -175,8 +176,8 @@ a.home-link {
   }
 
   .circle button#close {
-  top: 50%;
-  transform: rotate(90deg);
-  transform-origin: top left;
-}
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
 }
