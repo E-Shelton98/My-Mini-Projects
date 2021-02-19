@@ -39,35 +39,6 @@ nav.active {
   width: 350px;
 }
 
-/* nav.active ul {
-  display: grid;
-  grid-template: 1fr / 1fr;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 0;
-  transition: width 0.4s linear;
-  position: relative;
-  overflow: hidden;
-}
-
-nav.active ul.active {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav ul li {
-  opacity: 0;
-  transition: opacity 0.05s linear;
-}
-
-nav ul.active li {
-  opacity: 1;
-} */
-
 nav ul {
 	display: grid;
 	grid-template: 1fr / 1fr;
@@ -149,4 +120,17 @@ nav.active button.icon div.line1 {
 
 nav.active button.icon div.line2 {
   transform: rotate(765deg) translateY(-5.5px);
+}
+
+a.home-link {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 30px;
+  color: black;
 }
