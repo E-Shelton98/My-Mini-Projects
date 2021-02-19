@@ -184,6 +184,19 @@ h2 {
   white-space: nowrap;
 }
 
+a.home-link {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 30px;
+  color: white;
+}
+
 @keyframes flipV {
   0% {
     transform: rotateX(0deg);

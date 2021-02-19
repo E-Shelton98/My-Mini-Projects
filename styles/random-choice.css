@@ -50,3 +50,16 @@ textarea {
 .tag.highlight {
 	background-color: #273c75;
 }
+
+a.home-link {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 30px;
+  color: white;
+}

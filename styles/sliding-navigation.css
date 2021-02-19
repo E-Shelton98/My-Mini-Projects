@@ -135,6 +135,19 @@ nav ul li i {
   line-height: 1.5;
 }
 
+a.home-link {
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  height: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 30px;
+  color: black;
+}
+
 @media only Screen and (max-height: 500px) {
   nav ul li {
     margin: 20px 0px;
