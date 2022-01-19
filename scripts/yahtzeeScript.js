@@ -8,13 +8,14 @@ const faces = [
   'show-five',
 ]
 
-//get die one element.
+//get dice elements.
 const dice = document.querySelectorAll('.die')
 const rollBtn = document.getElementById('roll-btn')
 const dieFaces = document.querySelectorAll('.die-face')
 const counterSpan = document.getElementById('counter')
 
-let lockedDieValue = []
+let lockedDieValues = []
+let phoneticDieValues = []
 let counter = 1
 counterSpan.innerHTML = counter
 
@@ -79,13 +80,41 @@ dieFaces.forEach((face) => {
   face.addEventListener('click', () => {
     face.classList.toggle('lock')
     if (face.classList.contains('lock')) {
-      lockedDieValue.push(face.classList[1])
+      lockedDieValues.push(face.classList[1])
     } else {
-      index = lockedDieValue.indexOf(face.classList[1])
+      index = lockedDieValues.indexOf(face.classList[1])
       if (index > -1) {
-        lockedDieValue.splice(index, 1)
+        lockedDieValues.splice(index, 1)
       }
     }
-    console.log(lockedDieValue)
+    console.log(lockedDieValues)
+
+    function PhoneticDieValuesToNumeric(dieValues) {
+      let numericValues = []
+      dieValues.forEach((die) => {
+        switch (die) {
+          case 'die-face-one':
+            numericValues.push(1)
+            break
+          case 'die-face-two':
+            numericValues.push(2)
+            break
+          case 'die-face-three':
+            numericValues.push(3)
+            break
+          case 'die-face-four':
+            numericValues.push(4)
+            break
+          case 'die-face-five':
+            numericValues.push(5)
+            break
+          case 'die-face-six':
+            numericValues.push(6)
+        }
+      })
+      return numericValues
+    }
+
+    console.log(PhoneticDieValuesToNumeric(lockedDieValues))
   })
 })
