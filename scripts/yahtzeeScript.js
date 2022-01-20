@@ -114,7 +114,13 @@ dieFaces.forEach((face) => {
       })
       return numericValues
     }
+    let numericDieValues = []
+    numericDieValues = PhoneticDieValuesToNumeric(lockedDieValues)
 
-    console.log(PhoneticDieValuesToNumeric(lockedDieValues))
+    function scoreFiltering(dieValues) {
+      
+    }
+
+    scoreFiltering(numericDieValues)
   })
 })
