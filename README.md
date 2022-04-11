@@ -12,11 +12,24 @@ Many of the 50 Projects in 50 Days projects have been extended with added or rew
 ##Projects
 | Project | Script | CSS | HTML |
 | ------- | ------ | --- | ---- |
-| Animated Navigation | [Script](animatedNavigationScript.js) | [CSS](animated-navigation.css) | [HTML](animated-navigation.html) |
-| Blurry Loading | [Script](blurryLoadingScript.js) | [CSS](blurry-loading.css) | [HTML](blurry-loading.html) |
-| Dad Jokes | [Script](dadJokesScript.js) | [CSS](dad-jokes.css) | [HTML](dad-jokes.html) |
-| Drink Water | [Script](drinkWaterScript.js) | [CSS](drink-water.css) | [HTML](drink-water.html) |
-| Name | [Script](link) | [CSS](link) | [HTML](link) |
+| Animated Navigation | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/animatedNavigationScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/animated-navigation.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/animated-navigation.html) |
+| Blurry Loading | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/blurryLoadingScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/blurry-loading.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/blurry-loading.html) |
+| Dad Jokes | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/dadJokesScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/dad-jokes.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/dad-jokes.html) |
+| Drink Water | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/drinkWaterScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/drink-water.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/drink-water.html) |
+| Event Key Codes | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/eventKeycodesScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/event-keycodes.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/event-keycodes.html) |
+| Expanding Cards | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/expandingCardsScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/expanding-cards.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/expanding-cards.html) |
+| Collapsing FAQ | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/faqCollapseScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/faq-collapse.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/faq-collapse.html) |
+| Form Wave Animation | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/formWaveAnimationScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/form-wave-animation.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/form-wave-animation.html) |
+| Incrementing Counter | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/incrementingCounterScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/incrementing-counter.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/incrementing-counter.html) |
+| Page Search | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/pageSearchScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/page-search.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/page-search.html) |
+| Progress Steps | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/progressStepsScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/progress-steps.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/progress-steps.html) |
+| Random Choice | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/randomChoiceScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/random-choice.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/random-choice.html) |
+| Scroll Animation | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/scrollAnimationScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/scroll-animation.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/scroll-animation.html) |
+| Sliding Navigation | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/slidingNavigationScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/sliding-navigation.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/sliding-navigation.html) |
+| Sound Board | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/soundBoardScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/sound-board.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/sound-board.html) |
+| Split Landing Page | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/splitLandingPageScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/split-landing-page.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/split-landing-page.html) |
+| Yahtzee | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/yahtzeeScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/yahtzee.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/yahtzee.html) |
+| Future Project | [Script](link) | [CSS](link) | [HTML](link) |
 
 ##Credits
 
