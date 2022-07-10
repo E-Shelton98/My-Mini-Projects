@@ -1,69 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #efedd6;
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-	overflow-x: hidden;
+  align-items: center;
+  background-color: #efedd6;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
-	margin: 10px;
+  margin: 10px;
 }
 
 .box {
-	background-color: slategray;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 400px;
-	height: 200px;
-	margin: 10px;
-	border-radius: 10px;
-	box-shadow: 2px 4px 5px rgba(20, 20, 999, 0.3);
-	transform: translateX(400%);
-	transition: transform 0.8s ease-out;
+  align-items: center;
+  background-color: slategray;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(20, 20, 999, 0.3);
+  color: white;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 10px;
+  transform: translateX(400%);
+  transition: transform 0.8s ease-out;
+  width: 400px;
 }
 
 .box:nth-of-type(even) {
-	transform: translateX(-400%);
+  transform: translateX(-400%);
 }
 
 .box:last-of-type {
-	opacity: 0;
-	transition: opacity 0.9s ease-out;
+  opacity: 0;
+  transition: opacity 0.9s ease-out;
 }
 
 .box.show {
-	transform: translateX(0)
+  transform: translateX(0);
 }
 
 .box.show:last-of-type {
-	opacity: 1;
+  opacity: 1;
 }
 
 .box h2 {
-	font-size: 45px;
+  font-size: 45px;
 }
 
 a.home-link {
+  height: 30px;
+  left: 30px;
   position: absolute;
   top: 30px;
-  left: 30px;
-  height: 30px;
   width: 30px;
 }
 
 .fa-arrow-alt-circle-left {
-  font-size: 30px;
   color: black;
+  font-size: 30px;
 }

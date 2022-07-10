@@ -14,52 +14,52 @@ body {
 }
 
 header {
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin: 10px;
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
   width: 100vw;
-  margin: 10px;
-  background-color: lightgoldenrodyellow;
 }
 
 header a.brand-name {
-  margin-left: 10px;
-  text-decoration: none;
   color: #333;
   font-size: 25px;
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 header a.nav-link {
-	text-decoration: none;
-	color: #333;
-	font-size: 20px;
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 header a.nav-link:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 nav {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
-  width: 60%;
   padding-right: 60px;
+  width: 60%;
 }
 
 article {
+  height: auto;
   margin: 80px 10px 0px;
   padding: 10px;
-  height: auto;
 }
 
 .search {
-  position: relative;
   height: 25px;
   padding-right: 10px;
+  position: relative;
 }
 
 .search .input {
@@ -67,8 +67,8 @@ article {
   border: 0;
   font-size: 18px;
   height: 25px;
-  width: 50px;
   transition: width 0.5s ease;
+  width: 50px;
 }
 
 .btn {
@@ -76,13 +76,13 @@ article {
   border: 0;
   cursor: pointer;
   font-size: 12px;
+  height: 25px;
+  left: 0;
+  margin-right: 10px;
   position: absolute;
   top: 0;
-  left: 0;
-  height: 25px;
-  width: 50px;
   transition: transform 0.5s ease;
-  margin-right: 10px;
+  width: 50px;
 }
 
 .btn:focus,
@@ -99,38 +99,38 @@ article {
 }
 
 .btn:hover {
-	background-color: lightblue;
+  background-color: lightblue;
 }
 
 #options {
-  visibility: hidden;
   display: flex;
   justify-content: space-around;
   opacity: 0;
   transition: visibility 0s, opacity 1s linear;
+  visibility: hidden;
 }
 
 .search.active #options {
-  visibility: visible;
   display: flex;
   justify-content: space-between;
   opacity: 1;
+  visibility: visible;
 }
 
 figure {
-  margin: 20px 10px 10px;
-  padding: 5px;
-  float: left;
-  width: 20%;
-  border: 2px solid black;
   background-color: #ccc;
+  border: 2px solid black;
+  float: left;
+  margin: 20px 10px 10px;
   object-fit: contain;
+  padding: 5px;
+  width: 20%;
 }
 
 figure img {
-  width: 100%;
-  height: 100%;
   background-image: contain;
+  height: 100%;
+  width: 100%;
 }
 
 figure figcaption {
@@ -138,14 +138,14 @@ figure figcaption {
 }
 
 a.home-link {
+  height: 30px;
+  left: 8px;
   position: absolute;
   top: 8px;
-  left: 8px;
-  height: 30px;
   width: 30px;
 }
 
 .fa-arrow-alt-circle-left {
-  font-size: 30px;
   color: black;
+  font-size: 30px;
 }

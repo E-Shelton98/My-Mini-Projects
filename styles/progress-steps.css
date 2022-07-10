@@ -10,15 +10,15 @@
 }
 
 body {
+  align-items: center;
   background-color: #f6f7fb;
-  font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Muli', sans-serif;
   height: 100vh;
-  overflow: hidden;
+  justify-content: center;
   margin: 0;
+  overflow: hidden;
 }
 
 .container {
@@ -26,29 +26,29 @@ body {
 }
 
 .container-bar {
-  display: flex;
-  margin-top: 5%;
   align-items: center;
+  display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .progress-container {
   display: flex;
   justify-content: space-between;
-  position: relative;
   margin-bottom: 30px;
   max-width: 100%;
+  position: relative;
   width: 350px;
 }
 
 .progress-container::before {
-  content: '';
   background-color: var(--line-border-empty);
+  content: '';
+  height: 4px;
+  left: 0;
   position: absolute;
   top: 50%;
-  left: 0;
   transform: tranlateY(-50%);
-  height: 4px;
   width: 100%;
   z-index: -1;
 }
@@ -57,53 +57,53 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
   margin-bottom: 30px;
   max-width: 100%;
+  position: relative;
   width: 350px;
 }
 
 .progress-container-bar::before {
-  content: '';
   background-color: var(--line-border-empty);
-  position: relative;
+  content: '';
   height: 10px;
+  position: relative;
   width: 100%;
   z-index: -1;
 }
 
 .progress {
   background-color: var(--line-border-fill);
+  height: 4px;
+  left: 0;
   position: absolute;
   top: 50%;
-  left: 0;
   transform: tranlateY(-50%);
-  height: 4px;
+  transition: 0.4s ease;
   width: 0%;
   z-index: -1;
-  transition: 0.4s ease;
 }
 
 .progress-bar {
   background-color: var(--line-border-fill);
-  position: absolute;
   height: 10px;
+  position: absolute;
+  transition: 4s;
   width: 0%;
   z-index: -1;
-  transition: 4s;
 }
 
 .circle {
-  background-color: #fff;
-  color: #999;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  background-color: #fff;
   border: 3px solid var(--line-border-empty);
+  border-radius: 50%;
+  color: #999;
+  display: flex;
+  height: 30px;
+  justify-content: center;
   transition: 0.4s ease;
+  width: 30px;
 }
 
 .circle.active {
@@ -112,14 +112,14 @@ body {
 
 .btn {
   background-color: var(--line-border-fill);
-  color: #fff;
   border: 0;
   border-radius: 6px;
+  color: #fff;
   cursor: pointer;
   font-family: inherit;
-  padding: 8px 30px;
-  margin: 5px;
   font-size: 14px;
+  margin: 5px;
+  padding: 8px 30px;
 }
 
 .btn:active {
@@ -136,18 +136,18 @@ body {
 }
 
 .progress-statement {
-	text-align: center;
+  text-align: center;
 }
 
 a.home-link {
+  height: 30px;
+  left: 30px;
   position: absolute;
   top: 30px;
-  left: 30px;
-  height: 30px;
   width: 30px;
 }
 
 .fa-arrow-alt-circle-left {
-  font-size: 30px;
   color: black;
+  font-size: 30px;
 }

@@ -17,37 +17,37 @@
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
+  overflow: hidden;
 }
 
 h1 {
-  font-size: 4rem;
   color: #fff;
-  position: absolute;
+  font-size: 4rem;
   left: 50%;
+  position: absolute;
   top: 20%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
 
 .btn {
-  position: absolute;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  left: 50%;
-  top: 40%;
-  transform: translateX(-50%);
-  text-decoration: none;
-  color: #fff;
   border: #fff solid 0.2rem;
+  color: #fff;
+  display: flex;
   font-size: 1rem;
   font-weight: bold;
-  text-transform: uppercase;
-  width: 15rem;
-  padding: 1.5rem;
+  justify-content: center;
+  left: 50%;
   margin-top: 2rem;
+  padding: 1.5rem;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 40%;
+  transform: translateX(-50%);
+  width: 15rem;
 }
 
 .split.left .btn:hover {
@@ -61,48 +61,48 @@ h1 {
 }
 
 .container {
+  background: #333;
+  height: 100%;
   position: relative;
   width: 100%;
-  height: 100%;
-  background: #333;
 }
 
 .split {
-  position: absolute;
-  width: 50%;
   height: 100%;
   overflow: hidden;
+  position: absolute;
+  width: 50%;
 }
 
 .split.left {
-  left: 0;
   background: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
   background-repeat: no-repeat;
   background-size: cover;
+  left: 0;
 }
 
 .split.left::before {
+  background-color: var(--left-bg-color);
   content: '';
+  height: 100%;
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: var(--left-bg-color);
 }
 
 .split.right {
-  right: 0;
   background: url('https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80');
-  background-repeat: no-repeat;
   background-position-y: 20%;
+  background-repeat: no-repeat;
+  right: 0;
   /* background-size: cover; */
 }
 
 .split.right::before {
+  background-color: var(--right-bg-color);
   content: '';
+  height: 100%;
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: var(--right-bg-color);
 }
 
 .split.right,
@@ -129,33 +129,33 @@ h1 {
 }
 
 .holder {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   height: 100%;
   perspective: 500px;
+  position: absolute;
+  width: 100%;
   z-index: -1;
 }
 
 .card {
-  position: relative;
-  display: block;
-  width: 50%;
-  height: 50%;
-  transition: all 2s;
-  transform-style: preserve-3d;
   backface-visibility: visible;
+  display: block;
+  height: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 2s;
+  width: 50%;
 }
 
 .one,
 .back {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .flipV .back {
@@ -176,25 +176,25 @@ h1 {
 }
 
 h2 {
-  position: absolute;
   bottom: 0;
+  color: #fff;
   left: 0;
   padding-left: 5px;
-  color: #fff;
+  position: absolute;
   white-space: nowrap;
 }
 
 a.home-link {
+  height: 30px;
+  left: 30px;
   position: absolute;
   top: 30px;
-  left: 30px;
-  height: 30px;
   width: 30px;
 }
 
 .fa-arrow-alt-circle-left {
-  font-size: 30px;
   color: white;
+  font-size: 30px;
 }
 
 @keyframes flipV {

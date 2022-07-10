@@ -5,26 +5,26 @@
 }
 
 :root {
-	--primary-color: #000;
-	--secondary-color: #fff;
+  --primary-color: #000;
+  --secondary-color: #fff;
 }
 
 html {
-	transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 html.dark {
-	--primary-color: #0f0;
-	--secondary-color: #222;
-	background-color: #111;
-	color: var(--primary-color)
+  --primary-color: #0f0;
+  --secondary-color: #222;
+  background-color: #111;
+  color: var(--primary-color);
 }
 
 html.azure {
-	--primary-color: #4169E1;
-	--secondary-color: #ccffcc;
-	background-color: lightskyblue;
-	color: var(--primary-color);
+  --primary-color: #4169e1;
+  --secondary-color: #ccffcc;
+  background-color: lightskyblue;
+  color: var(--primary-color);
 }
 
 body {
@@ -38,131 +38,131 @@ body {
 }
 
 .toggle-container {
-	position: absolute;
-	top: 100px;
+  position: absolute;
+  top: 100px;
 }
 
 .toggle-dark {
-	background-color: #222;
-	border: 0;
-	border-radius: 4px;
-	color: var(--secondary-color);
-	cursor: pointer;
-	padding: 8px 12px;
+  background-color: #222;
+  border: 0;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 8px 12px;
 }
 
 .toggle-dark:hover {
-	color: #0F0
+  color: #0f0;
 }
 
 html.dark .toggle-dark {
-	color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 html.dark .toggle-dark:hover {
-	color: #aaa;
+  color: #aaa;
 }
 
 .toggle-azure {
-	background-color: #CCCCFF;
-	border: 0;
-	border-radius: 4px;
-	color: #4169E1;
-	cursor: pointer;
-	padding: 8px 12px;
+  background-color: #ccccff;
+  border: 0;
+  border-radius: 4px;
+  color: #4169e1;
+  cursor: pointer;
+  padding: 8px 12px;
 }
 
 .clock-container {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .clock {
-	height: 200px;
-	position: relative;
-	width: 200px;
+  height: 200px;
+  position: relative;
+  width: 200px;
 }
 
 .needle {
-	background-color: var(--primary-color);
-	height: 50px;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform-origin: bottom center;
-	width: 3px;;
+  background-color: var(--primary-color);
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform-origin: bottom center;
+  width: 3px;
 }
 
 .needle.hour {
-	transform: translate(-50%, -100%) rotate(0deg);
-	transition: all 0.5s ease-in;
+  transform: translate(-50%, -100%) rotate(0deg);
+  transition: all 0.5s ease-in;
 }
 
 .needle.minute {
-	height: 100px;
-	transform: translate(-50%, -100%) rotate(0deg);
-	transition: all 0.5s ease-in;
+  height: 100px;
+  transform: translate(-50%, -100%) rotate(0deg);
+  transition: all 0.5s ease-in;
 }
 
 .needle.second {
-	background-color: #e74c3c;
-	height: 75px;
-	transform: translate(-50%, -100%) rotate(0deg)
+  background-color: #e74c3c;
+  height: 75px;
+  transform: translate(-50%, -100%) rotate(0deg);
 }
 
 html.azure .needle.second {
-	background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .center-point {
-	background-color: var(--secondary-color);
-	border-radius: 50%;
-	height: 10px;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
 }
 
 .center-point::after {
-	background-color: var(--primary-color);
-	border-radius: 50%;
-	content: '';
-	height: 5px;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 5px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  content: '';
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
 }
 
 .time {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .date {
-	color: #aaa;
-	font-size: 14px;
-	letter-spacing: 0.3px;
-	text-transform: uppercase;
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 html.azure .date {
-	color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .date .circle {
-	align-items: center;
-	background-color: var(--primary-color);
-	border-radius: 50%;
-	color: var(--secondary-color);
-	display: inline-flex;
-	height: 18px;
-	justify-content: center;
-	line-height: 18px;
-	transition: all 0.5s ease-in;
-	width: 18px;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--secondary-color);
+  display: inline-flex;
+  height: 18px;
+  justify-content: center;
+  line-height: 18px;
+  transition: all 0.5s ease-in;
+  width: 18px;
 }
