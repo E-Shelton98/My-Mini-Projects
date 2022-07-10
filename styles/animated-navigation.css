@@ -5,6 +5,7 @@
 }
 
 body {
+  align-items: center;
   background-color: #eafbff;
   background-image: linear-gradient(
     to bottom,
@@ -13,26 +14,25 @@ body {
     #5290f9 50%,
     #5290f9 100%
   );
-  font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Muli', sans-serif;
   height: 100vh;
+  justify-content: center;
   margin: 0;
 }
 
 nav {
-  background-color: #fff;
-  padding: 10px;
-  width: 80px;
-  height: 50px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  background-color: #fff;
   border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  padding: 10px;
   transition: width 0.8s linear;
+  width: 80px;
 }
 
 nav.active {
@@ -40,44 +40,44 @@ nav.active {
 }
 
 nav ul {
-	display: grid;
-	grid-template: 1fr / 1fr;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	width: 0;
-	transition: width 0.5s linear;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: width 0.5s linear;
+  width: 0;
 }
 
 nav.active ul {
-	display: grid;
-	grid-template: 1fr / 1fr;
-	justify-items: center;
-	align-items: center;
-	width: 90%;
+  align-items: center;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  justify-items: center;
+  width: 90%;
 }
 
 nav ul.active {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 90%;
-	opacity: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+  width: 90%;
 }
 
 nav ul li {
-	grid-area: 1 / 1 / 2 / 2;
-	opacity: 0;
-	transition: opacity 0.45s ease-out;
+  grid-area: 1 / 1 / 2 / 2;
+  opacity: 0;
+  transition: opacity 0.45s ease-out;
 }
 
 nav.active ul li {
-	opacity: .0;
+  opacity: 0;
 }
 
 nav.active ul.active li {
-	opacity: 1;
+  opacity: 1;
 }
 
 nav ul li a {
@@ -89,9 +89,9 @@ button.icon {
   background-color: #fff;
   border: 0;
   cursor: pointer;
+  height: 30px;
   padding: 0;
   position: relative;
-  height: 30px;
   width: 30px;
 }
 
@@ -102,16 +102,16 @@ button.icon:focus {
 button.icon div.line {
   background-color: #5290f9;
   height: 2px;
-  width: 20px;
+  left: 5px;
   position: absolute;
   top: 10px;
-  left: 5px;
   transition: transform 0.6s linear;
+  width: 20px;
 }
 
 button.icon div.line2 {
-  top: auto;
   bottom: 10px;
+  top: auto;
 }
 
 nav.active button.icon div.line1 {
@@ -123,14 +123,14 @@ nav.active button.icon div.line2 {
 }
 
 a.home-link {
+  height: 30px;
+  left: 30px;
   position: absolute;
   top: 30px;
-  left: 30px;
-  height: 30px;
   width: 30px;
 }
 
 .fa-arrow-alt-circle-left {
-  font-size: 30px;
   color: black;
+  font-size: 30px;
 }

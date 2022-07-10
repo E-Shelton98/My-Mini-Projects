@@ -3,7 +3,8 @@ const minuteEl = document.querySelector('.minute')
 const secondEl = document.querySelector('.second')
 const timeEl = document.querySelector('.time')
 const dateEl = document.querySelector('.date')
-const toggleEl = document.querySelector('.toggle')
+const toggleDarkEl = document.querySelector('.toggle-dark')
+const toggleAzureEl = document.querySelector('.toggle-azure')
 
 const days = [
   'Sunday',
@@ -29,13 +30,24 @@ const months = [
   'Dec',
 ]
 
-toggleEl.addEventListener('click', (e) => {
+toggleDarkEl.addEventListener('click', (e) => {
   const html = document.querySelector('html')
   if (html.classList.contains('dark')) {
-    html.classList.remove('dark')
+    html.className = ''
     e.target.innerHTML = 'Dark Mode'
   } else {
-    html.classList.add('dark')
+    html.className = 'dark'
+    e.target.innerHTML = 'Light Mode'
+  }
+})
+
+toggleAzureEl.addEventListener('click', (e) => {
+  const html = document.querySelector('html')
+  if (html.classList.contains('azure')) {
+    html.className = ''
+    e.target.innerHTML = 'Azure Theme'
+  } else {
+    html.className = 'azure'
     e.target.innerHTML = 'Light Mode'
   }
 })
