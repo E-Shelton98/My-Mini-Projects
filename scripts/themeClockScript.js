@@ -5,6 +5,7 @@ const timeEl = document.querySelector('.time')
 const dateEl = document.querySelector('.date')
 const toggleDarkEl = document.querySelector('.toggle-dark')
 const toggleAzureEl = document.querySelector('.toggle-azure')
+const toggleLightEl = document.querySelector('.toggle-light')
 
 const days = [
   'Sunday',
@@ -34,10 +35,8 @@ toggleDarkEl.addEventListener('click', (e) => {
   const html = document.querySelector('html')
   if (html.classList.contains('dark')) {
     html.className = ''
-    e.target.innerHTML = 'Dark Mode'
   } else {
     html.className = 'dark'
-    e.target.innerHTML = 'Light Mode'
   }
 })
 
@@ -45,11 +44,14 @@ toggleAzureEl.addEventListener('click', (e) => {
   const html = document.querySelector('html')
   if (html.classList.contains('azure')) {
     html.className = ''
-    e.target.innerHTML = 'Azure Theme'
   } else {
     html.className = 'azure'
-    e.target.innerHTML = 'Light Mode'
   }
+})
+
+toggleLightEl.addEventListener('click', (e) => {
+  const html = document.querySelector('html')
+  html.className = ''
 })
 
 function setTime() {
@@ -87,7 +89,9 @@ function setTime() {
     360
   )}deg)`
 
-  timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`
+  timeEl.innerHTML = `${hoursForClock}:${
+    minutes < 10 ? `0${minutes}` : minutes
+  } ${ampm}`
   dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
 }
 

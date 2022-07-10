@@ -72,6 +72,15 @@ html.dark .toggle-dark:hover {
   padding: 8px 12px;
 }
 
+.toggle-light {
+  background-color: #aaa;
+  border: 0;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
 .clock-container {
   align-items: center;
   display: flex;
@@ -165,4 +174,22 @@ html.azure .date {
   line-height: 18px;
   transition: all 0.5s ease-in;
   width: 18px;
+}
+
+a.home-link {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  color: black;
+  font-size: 30px;
+}
+
+html.dark .fa-arrow-alt-circle-left {
+  color: #bbb;
+  font-size: 30px;
 }
