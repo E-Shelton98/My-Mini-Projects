@@ -7,7 +7,7 @@ This catalog makes it not only easier to easily view all of these projects, but 
 
 All of the projects are built using vanilla Javascript, HTML, and CSS, though a handful will include other libraries such as Mark.js.
 
-Many of the 50 Projects in 50 Days projects have been extended with added or reworked functionality. On the main site those are marked with an "*".
+Many of the 50 Projects in 50 Days projects have been extended with added or reworked functionality. On the main site those are marked with an "\*".
 
 ##Projects
 | Project | Script | CSS | HTML |
@@ -28,7 +28,7 @@ Many of the 50 Projects in 50 Days projects have been extended with added or rew
 | Sliding Navigation | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/slidingNavigationScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/sliding-navigation.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/sliding-navigation.html) |
 | Sound Board | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/soundBoardScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/sound-board.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/sound-board.html) |
 | Split Landing Page | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/splitLandingPageScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/split-landing-page.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/split-landing-page.html) |
-| Future Project | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/backgroundSliderScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/background-slider.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/background-slider.html) |
+| Background Slider | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/backgroundSliderScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/background-slider.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/background-slider.html) |
 | Yahtzee | [Script](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/scripts/yahtzeeScript.js) | [CSS](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/styles/yahtzee.css) | [HTML](https://github.com/E-Shelton98/My-Mini-Projects/blob/main/html/yahtzee.html) |
 | Future Project | [Script](link) | [CSS](link) | [HTML](link) |
 
