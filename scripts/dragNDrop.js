@@ -18,6 +18,7 @@ function dragStart() {
 
 function dragEnd() {
   this.className = 'fill'
+  console.log('dragEnd')
 }
 
 function dragOver(e) {
