@@ -1,0 +1,51 @@
+/* CSS Properties are in alphabetical order via Prettier */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+button {
+  background-color: purple;
+  border: 1px purple solid;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 10px 0px;
+  overflow: hidden;
+  padding: 20px 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button .circle {
+  animation: scale 0.5s ease-out;
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  /* pointer-events: none is used so if you fast click you click on the parent element and not the circle again causing visual bugs in the ripple */
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  width: 100px;
+}
+
+@keyframes scale {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(3);
+  }
+}
