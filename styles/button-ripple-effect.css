@@ -49,3 +49,16 @@ button .circle {
     transform: translate(-50%, -50%) scale(3);
   }
 }
+
+a.home-link {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  color: white;
+  font-size: 30px;
+}

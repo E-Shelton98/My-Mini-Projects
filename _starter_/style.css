@@ -3,16 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	overflow: hidden;
-	margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+a.home-link {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  color: black;
+  font-size: 30px;
 }
