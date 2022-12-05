@@ -30,12 +30,15 @@ body {
   position: absolute;
   top: 0;
   width: 0;
+}
+
+.kinetic::after {
   animation: rotateA 2s linear infinite 0.5s;
 }
 
 .kinetic::before {
-  transform: rotate(90deg);
   animation: rotateB 2s linear infinite 0.5s;
+  transform: rotate(180deg);
 }
 
 @keyframes rotateA {
@@ -57,16 +60,16 @@ body {
 @keyframes rotateB {
   0%,
   25% {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 
   50%,
   75% {
-    transform: rotate(270deg);
+    transform: rotate(360deg);
   }
 
   100% {
-    transform: rotate(450deg);
+    transform: rotate(540deg);
   }
 }
 
