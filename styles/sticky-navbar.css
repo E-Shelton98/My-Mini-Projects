@@ -1,0 +1,84 @@
+/* CSS Properties are in alphabetical order via Prettier */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* todo nav */
+
+.hero {
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.content h2, .content h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+
+a.home-link {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 30px;
+}
+
+.fa-arrow-alt-circle-left {
+  color: black;
+  font-size: 30px;
+}
